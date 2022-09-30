@@ -19,6 +19,7 @@ odm/lib/rfsa/adsp/libarcsoft_portraitsn_hvx_skel_21619.so
 odm/lib/libaudioEngineerTest.so
 odm/lib/liblvimfs.so
 odm/lib/liblvimfs_wrapper.so
+odm/lib64/libaudioEngineerTest.so
 vendor/lib/hw/audio.primary.kona.so
 vendor/lib/liba2dpoffload.so
 vendor/lib/libextcamera_client.so
