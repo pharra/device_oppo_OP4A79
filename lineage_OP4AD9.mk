@@ -18,9 +18,9 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit some common ArrowOS stuff
-$(call inherit-product, vendor/arrow/config/common.mk)
-ARROW_GAPPS := true
+# Inherit some common lineageOS stuff
+$(call inherit-product, vendor/lineage/config/common.mk)
+lineage_GAPPS := true
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_INCLUDE_PIXEL_CHARGER := true
 
@@ -28,17 +28,17 @@ TARGET_INCLUDE_PIXEL_CHARGER := true
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := arrow_bitra
-PRODUCT_DEVICE := bitra
-PRODUCT_BRAND := realme
-PRODUCT_MODEL := RMX3370
-PRODUCT_MANUFACTURER := realme
+PRODUCT_NAME := lineage_OP4AD9
+PRODUCT_DEVICE := OP4AD9
+PRODUCT_BRAND := OPPO
+PRODUCT_MODEL := PDHM00
+PRODUCT_MANUFACTURER := OPPO
 
 PRODUCT_GMS_CLIENTID_BASE := android-oppo
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    TARGET_DEVICE=RE879AL1 \
-    TARGET_PRODUCT=RMX3370 \
-    PRIVATE_BUILD_DESC="RMX3370-user 12 RKQ1.211103.002 R.202206180330 release-keys"
+    TARGET_DEVICE=OP4AD9 \
+    TARGET_PRODUCT=PDHM00 \
+    PRIVATE_BUILD_DESC="PDHM00-user 12 RKQ1.211103.002 Q.202205181608 release-keys"
 
-BUILD_FINGERPRINT := google/redfin/redfin:12/SQ3A.220605.009.A1/8643238:user/release-keys
+BUILD_FINGERPRINT := OPPO/PDHM00/OP4AD9:12/RKQ1.211103.002/Q.202205181608:user/release-keys
