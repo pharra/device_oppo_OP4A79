@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_OP4A79.mk
+    $(LOCAL_DIR)/kscope_OP4A79.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_OP4A79-user \
-    lineage_OP4A79-userdebug \
-    lineage_OP4A79-eng
+    kscope_OP4A79-user \
+    kscope_OP4A79-userdebug \
+    kscope_OP4A79-eng

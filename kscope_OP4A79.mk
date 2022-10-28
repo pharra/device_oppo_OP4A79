@@ -19,7 +19,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit some common Lineage stuff
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/kscope/config/common_full_phone.mk)
 
 # Inherit from NX659J device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
@@ -27,7 +27,7 @@ $(call inherit-product, $(LOCAL_PATH)/device.mk)
 PRODUCT_BRAND := OPPO
 PRODUCT_DEVICE := OP4A79
 PRODUCT_MANUFACTURER := OPPO
-PRODUCT_NAME := lineage_OP4A79
+PRODUCT_NAME := kscope_OP4A79
 PRODUCT_MODEL := PDEM30
 
 PRODUCT_GMS_CLIENTID_BASE := android-oppo
