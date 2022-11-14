@@ -20,7 +20,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit some common lineageOS stuff
 $(call inherit-product, vendor/arrow/config/common.mk)
-#ARROW_GAPPS := true
+ARROW_GAPPS := true
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_INCLUDE_PIXEL_CHARGER := true
 
