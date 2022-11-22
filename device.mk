@@ -390,7 +390,7 @@ PRODUCT_PACKAGES += \
     ueventd.qcom.rc
 
 PRODUCT_PACKAGES += \
-    init.op4a79.rc
+    init.op4a7a.rc
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/rootdir/etc/fstab.qcom:$(TARGET_COPY_OUT_RAMDISK)/fstab.qcom
