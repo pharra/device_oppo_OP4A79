@@ -8,7 +8,7 @@
 
 set -e
 
-export DEVICE=OP4AD9
+export DEVICE=OP4A7A
 export DEVICE_COMMON=sm8250-common
 export VENDOR=oppo
 

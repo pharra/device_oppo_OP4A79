@@ -7,4 +7,7 @@ ro.crypto.volume.metadata.method=dm-default-key
 ro.surface_flinger.set_touch_timer_ms=0
 
 # USB
-vendor.usb.product_string=Ace2
+vendor.usb.product_string=OPPO Find X2 Pro
+
+# Fingerprint
+ro.separate.soft=19066
