@@ -1,9 +1,15 @@
 # Bluetooth
-bluetooth.device.default_name=oppo Reno6 Pro+ 5G
+bluetooth.device.default_name=OPPO Find X2 Pro
+# Crypto
+#ro.crypto.dm_default_key.options_format.version=2
+ro.crypto.volume.metadata.method=dm-default-key
 
 # Graphics
-ro.surface_flinger.set_idle_timer_ms=4000
-ro.surface_flinger.set_touch_timer_ms=4000
+#ro.surface_flinger.set_idle_timer_ms=4000
+ro.surface_flinger.set_touch_timer_ms=0
 
 # USB
-vendor.usb.product_string=oppo Reno6 Pro+ 5G
+vendor.usb.product_string=OPPO Find X2 Pro
+
+# Fingerprint
+ro.separate.soft=19066

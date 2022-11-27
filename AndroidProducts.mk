@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/arrow_OP4EC1.mk
+    $(LOCAL_DIR)/arrow_OP4A7A.mk
 
 COMMON_LUNCH_CHOICES := \
-    arrow_OP4EC1-user \
-    arrow_OP4EC1-userdebug \
-    arrow_OP4EC1-eng
+    arrow_OP4A7A-user \
+    arrow_OP4A7A-userdebug \
+    arrow_OP4A7A-eng

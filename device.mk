@@ -18,7 +18,7 @@
 $(call inherit-product, device/oppo/sm8250-common/common.mk)
 
 # Inherit proprietary libraries
-$(call inherit-product, vendor/oppo/OP4EC1/OP4EC1-vendor.mk)
+$(call inherit-product, vendor/oppo/OP4A7A/OP4A7A-vendor.mk)
 
 # API
 PRODUCT_SHIPPING_API_LEVEL := 30
@@ -44,7 +44,7 @@ PRODUCT_PACKAGES += \
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
-    device/oppo/OP4EC1
+    device/oppo/OP4A7A
 
 # VNDK
 PRODUCT_COPY_FILES += \

@@ -22,7 +22,7 @@ fi
 
 set -e
 
-export DEVICE=OP4EC1
+export DEVICE=OP4A7A
 export DEVICE_COMMON=sm8250-common
 export VENDOR=oppo
 

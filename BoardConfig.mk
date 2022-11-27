@@ -17,16 +17,19 @@
 # Include the common OEM chipset BoardConfig.
 include device/oppo/sm8250-common/BoardConfigCommon.mk
 
-DEVICE_PATH := device/oppo/OP4EC1
+DEVICE_PATH := device/oppo/OP4A7A
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := OP4EC1,OP4F7FL1
+TARGET_OTA_ASSERT_DEVICE := OP4A7A
+
+# Bluetooth
+BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth/include
 
 # HIDL
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
 
-# Kernel
-BOARD_PREBUILT_DTBOIMAGE := $(DEVICE_PATH)/prebuilt/dtbo.img
-
 # Properties
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
+
+# prebuilt-DTBO
+BOARD_PREBUILT_DTBOIMAGE := $(DEVICE_PATH)/prebuilt/dtbo.img
