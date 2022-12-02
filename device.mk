@@ -23,9 +23,6 @@ $(call inherit-product, vendor/oppo/OP4A7A/OP4A7A-vendor.mk)
 # API
 PRODUCT_SHIPPING_API_LEVEL := 30
 
-# Audio
-TARGET_HAS_AUDIO_LVIMFS := true
-
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/audio/audio_platform_info_intcodec.xml:$(TARGET_COPY_OUT_ODM)/etc/audio_platform_info.xml \
     $(LOCAL_PATH)/audio/audio_platform_info_intcodec.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_platform_info_intcodec.xml \
